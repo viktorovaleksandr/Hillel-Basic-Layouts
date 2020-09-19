@@ -19,6 +19,7 @@ body {
 	text-transform: uppercase;
 }
 .navbar .logo {
+	flex: 0 0 157px;
 	font: 600 24px/32px Helvetica, sans-serif;
 	color: #fff;
 	margin: 0 48px;
@@ -27,8 +28,10 @@ body {
 	opacity: .7;
 }
 .navbar-list {
-	display: inline-flex;
-	padding: 0 48px;
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+	padding: 0 48px 0 0;
 }
 .navbar-list li {
 	margin: 0 0 0 32px;
@@ -62,7 +65,7 @@ body {
 	flex-grow: 1;
 }
 .sidebar {
-	flex: 0 0 162px;
+	flex: 0 0 175px;
 	padding: 32px;
 }
 .sidebar-list li a {
@@ -86,16 +89,16 @@ body {
 .main-content {
 	flex-grow: 1;
 	border-left: 1px solid #D5C4B2;
-	padding: 0 0 100px;
+	padding: 0 0 24px;
 }
 .title {
 	font: 600 36px/42px Helvetica, sans-serif;
 	text-transform: uppercase;
 	color: #D5C4B2;
+	border-bottom: 1px solid #D5C4B2;
 	padding: 24px 48px;
 }
 .description {
-  	border-top: 1px solid #D5C4B2;
 	padding: 24px 48px;
 }
 .description p {
