@@ -5,8 +5,6 @@ body {
 }
 .wrapper {
 	width: 1024px;
-	display: flex;
-   flex-flow: column;
    margin: 0 auto;
 }
 .header {
@@ -29,7 +27,6 @@ body {
 }
 .navbar-list {
 	display: flex;
-	justify-content: flex-end;
 	flex-wrap: wrap;
 	padding: 0 48px 0 0;
 }
@@ -62,7 +59,6 @@ body {
 }
 .main {
 	display: flex;
-	flex-grow: 1;
 }
 .sidebar {
 	flex: 0 0 175px;
